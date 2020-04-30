@@ -16,10 +16,10 @@ def divide(a, b):
 
 print("Let's do math with these functions. ")
 
-age = add(14, 555)
-height = subtract(978, 74)
-weight = multiply(180, 2)
-iq = divide(180, 2)
+age = add(30, 5)
+height = subtract(78, 4)
+weight = multiply(90, 2)
+iq = divide(100, 2)
 
 print(f"\n Age: {age},\n Height: {height},\n Weight: {weight},\n IQ: {iq}")
 
@@ -28,3 +28,8 @@ print("\n Here is a puzzle.")
 what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 
 print("That becomes:", what, "Can you do it by hand? ")
+
+print("\nLet's do the SD in this file: ")
+
+who = multiply(height, add(age, 35))
+print("It should be:", who)
